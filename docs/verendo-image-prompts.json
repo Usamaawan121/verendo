@@ -1,0 +1,438 @@
+{
+  "mode": "built-in image_gen",
+  "generationCount": 19,
+  "retryCount": 0,
+  "note": "All people depicted are original fictional identities. These are representative placeholder photographs, not images of actual Verendo employees.",
+  "teamCardOrder": [
+    {
+      "slot": "team-01",
+      "identity": "South Asian man, founder",
+      "heroPosition": "far left"
+    },
+    {
+      "slot": "team-02",
+      "identity": "Black man",
+      "heroPosition": "second from left"
+    },
+    {
+      "slot": "team-03",
+      "identity": "South Asian woman",
+      "heroPosition": "standing center-right"
+    },
+    {
+      "slot": "team-04",
+      "identity": "East Asian man",
+      "heroPosition": "seated center-left"
+    },
+    {
+      "slot": "team-05",
+      "identity": "auburn-haired woman",
+      "heroPosition": "seated center-right"
+    },
+    {
+      "slot": "team-06",
+      "identity": "Black woman",
+      "heroPosition": "far right"
+    }
+  ],
+  "inspectionNotes": "V poster contains one unambiguous uppercase V. Landscape contains no sculpture or letters. Six main portraits and alternate poses maintain matching fictional identities. About hero, results and achievements include small muted background plants; all lighting remains neutral. Portrait crops are approximately 4:5 and wide crops approximately 16:9.",
+  "assets": [
+    {
+      "name": "about-hero",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 16:9 wide About-page hero photograph for Verendo, a premium digital-services agency.\nPrimary request: A natural cinematic editorial group portrait of exactly six original fictional software and design professionals, three men and three women, age approximately 25\u201345, gathered in a refined charcoal and silver office with textured black walls and understated glass partitions. This is representative placeholder photography, not real employees.\nSubjects, from left to right: (1) South Asian man age 38, short softly textured black hair, neatly trimmed short beard, charcoal jacket over light gray crewneck; (2) Black man age 32 with closely cropped hair and clean-shaven face, black overshirt; (3) East Asian man age 30 with gently parted black hair, charcoal knit polo; (4) South Asian woman age 31 with long straight dark hair, black blazer; (5) light-skinned woman age 34 with wavy shoulder-length auburn hair, dark tailored jacket; (6) Black woman age 29 with natural shoulder-length curls, black high-neck blouse. Their expressions are composed, friendly, intelligent, relaxed.\nStyle/medium: Believable professional photography, natural skin pores and proportions, elegant but unstaged, medium-format camera realism.\nComposition/framing: Exactly 16:9 landscape. Six people occupy the upper and middle image, all six faces clear and recognizable, framing from about waist or chest upward, casual varied standing and seated positions. Preserve a broad quiet dark lower-left area for website copy; no text baked into the image. No important face near the edges.\nLighting/mood: Soft large-window side light, subtle silvery highlights, cinematic dark exposure with faces legible.\nColor palette: Black, charcoal, silver, neutral skin tones. No green tint, no green lighting.\nConstraints: Original fictional identities only. Anatomically plausible hands and bodies. Exactly six people. No text, no logos, no watermark, no corporate signs.",
+      "mode": "built-in image_gen",
+      "intent": "generate",
+      "requestedAspect": "16:9",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-683e2e04-1b57-4455-9b19-bd291ef2ac0e.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "references": [],
+      "bytes": 1980160,
+      "sha256": "a8e0e11d6d4684c28ec961c4b3069d314772a2a7b66da2702b6f101580bf6fa4",
+      "packagedFile": "public/media/about-hero.webp",
+      "packagedSha256": "09216fbd9b1290f398186baacb4687cdaa01c0c513cbcb0615463168c42b1dd4",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "verendo-v-poster",
+      "prompt": "Use case: product-mockup.\nAsset type: 16:9 cinematic website hero supporting poster for a premium black-and-white digital agency.\nPrimary request: A premium photorealistic product render of ONE large unambiguous uppercase V-shaped three-dimensional sculpture floating just above a dark rough volcanic rock landscape under a soft gray overcast sky.\nSubject: One solid capital V constructed from two thick diagonal extruded arms which meet at one sharp downward-pointing bottom apex, wide open top, no extra strokes, no loops, no curves, no letters other than V. It must read instantly and clearly as V. Dark polished titanium faces with bright chrome beveled edges, physically believable thick metal, subtle fine brushed texture and accurate reflected light. Slight three-quarter camera angle shows depth without obscuring the V shape.\nScene/backdrop: Empty charcoal basalt ground with subtle jagged rocks and dark ash, distant low volcanic ridgeline, smooth neutral gray clouds. Object centered, filling roughly central 45 percent of width and 60 percent of height. Ground begins in the lower third, quiet negative space at both edges and bottom for website copy.\nStyle/medium: Luxury cinematic CGI rendered like high-end architectural product photography, realistic ambient occlusion, crisp silhouette, high contrast between metal edges and dark landscape.\nLighting/mood: Soft cool-neutral overcast skylight and silver rim light, dramatic yet restrained.\nColor palette: Only black, charcoal, silver, neutral gray; no green lighting or green color palette.\nConstraints: 16:9 landscape image. Exactly one V sculpture. No S form, no other letters, no text, no logos, no watermark, no people, no fire, no colored neon, no rings around the sculpture.",
+      "mode": "built-in image_gen",
+      "intent": "generate",
+      "requestedAspect": "16:9",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-3525a6d9-eef8-4b94-83dc-13dbb7a84679.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/verendo-v-poster.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "references": [],
+      "bytes": 2229712,
+      "sha256": "e4cc373b80c3dbf65b52883edf3e8a80c12072280a68fffd52b928e95df2c66a",
+      "packagedFile": "public/media/verendo-v-poster.webp",
+      "packagedSha256": "ff6e003dfff65d7696c4641874bc954c031aae53cbc771c898213b7d1bedef9f",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "verendo-v-landscape",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 16:9 empty background plate for a live 3D website scene at a premium black-and-white digital-services agency.\nPrimary request: An empty dark rough volcanic rock landscape under a soft gray overcast sky, no subject in the center, designed to match a cinematic polished-titanium sculpture scene.\nScene/backdrop: Charcoal basalt ground with subtle jagged rocks and dark ash, distant low volcanic ridgeline, smooth neutral gray clouds. Ground begins in the lower third. The horizon is low and restrained. Leave the central sky area uncluttered, with plenty of quiet negative space at edges and lower area for website text and an independently rendered 3D object.\nStyle/medium: Premium photorealistic cinematic landscape photography, high contrast but subtle tonal detail, convincing rock material, natural atmospheric depth.\nLighting/mood: Soft cool-neutral overcast skylight, consistent with a dark metal object lit by silvery sky reflections.\nColor palette: Only black, charcoal, silver, neutral gray; no green lighting or green tint.\nConstraints: Exactly 16:9 landscape. Completely empty landscape. NO sculpture, NO object, NO letters, NO V, no text, no logos, no watermark, no people, no vegetation, no colored lights, no rings, no fire.",
+      "mode": "built-in image_gen",
+      "intent": "generate",
+      "requestedAspect": "16:9",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-3c778382-0777-4661-9cc2-814a523ee5a3.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/verendo-v-landscape.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "references": [],
+      "bytes": 2034936,
+      "sha256": "fc6450abcd2136d817649d38dc313c9d4832512997654fc6070ff7a2ee0dfdee",
+      "packagedFile": "public/media/verendo-v-landscape.webp",
+      "packagedSha256": "c053c78086c2d39a732ebe5bb49ef488aaa7d66dc0d8ada210f13e0d4a84cbeb",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-01",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "requestedAspect": "4:5",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical professional team-card portrait for a premium digital-services agency.\nInput images: Image 1 is an identity reference showing six original fictional people. Use only the specified person as the identity reference; photograph this same fictional person individually in a new studio setting.\nSubject: the South Asian man at the far left of the reference group, approximately 38, short softly textured black hair, neatly trimmed short beard, charcoal jacket over light gray crewneck. Preserve the recognizable facial structure, skin tone, hair and clothing of this exact person from the reference.\nPrimary request: One waist-up studio portrait of this fictional founder, warm subtle closed-mouth smile, relaxed hands loosely folded at waist, looking toward the camera.\nScene/backdrop: Uniform softly textured neutral dark-gray seamless studio background, softly lit, no office objects. This backdrop and lighting should match a consistent six-person portrait series.\nStyle/medium: Premium natural professional photography with realistic skin texture, believable anatomy, gentle medium-format depth of field, human warmth and subtle imperfections.\nComposition/framing: Exactly 4:5 portrait, one person centered, head in upper third, both shoulders entirely visible, a little breathing room above head and to sides, waist-up framing, clean silhouette.\nLighting/mood: Soft broad windowlike key light from camera left, gentle fill, restrained silver edge light. Clear facial detail and quiet cinematic contrast.\nColor palette: Charcoal, silver-gray, black clothes, natural skin. No green lighting or green tint.\nConstraints: One original fictional person only, representative placeholder portrait not a real employee. No text, logos, watermarks or signs. No extra limbs, no distorted hands.",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-4822bc1e-327a-4f36-82ea-ca3f95477e8d.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-01.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png"
+      ],
+      "bytes": 2012770,
+      "sha256": "5d2015fc278183143e2d106e314b76bf4ecd5a63f2e7ba33ee21dcb4a0737a4f",
+      "packagedFile": "public/media/team-01.webp",
+      "packagedSha256": "19e1f86e811847b97572589859a09b644c9732e22f0f644528d4c4ec3cb66e8e",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-02",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "requestedAspect": "4:5",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical professional team-card portrait for a premium digital-services agency.\nInput images: Image 1 is an identity reference showing six original fictional people. Use only the specified person as the identity reference; photograph this same fictional person individually in a new studio setting.\nSubject: the Black man second from the left of the reference group, approximately 32, closely cropped hair, clean-shaven face, black overshirt over black shirt. Preserve the recognizable facial structure, skin tone, hair and clothing of this exact person from the reference.\nPrimary request: One waist-up studio portrait of this fictional team member, relaxed confident expression, hands loosely together at waist, looking toward the camera.\nScene/backdrop: Uniform softly textured neutral dark-gray seamless studio background, softly lit, no office objects. This backdrop and lighting should match a consistent six-person portrait series.\nStyle/medium: Premium natural professional photography with realistic skin texture, believable anatomy, gentle medium-format depth of field, human warmth and subtle imperfections.\nComposition/framing: Exactly 4:5 portrait, one person centered, head in upper third, both shoulders entirely visible, a little breathing room above head and to sides, waist-up framing, clean silhouette.\nLighting/mood: Soft broad windowlike key light from camera left, gentle fill, restrained silver edge light. Clear facial detail and quiet cinematic contrast.\nColor palette: Charcoal, silver-gray, black clothes, natural skin. No green lighting or green tint.\nConstraints: One original fictional person only, representative placeholder portrait not a real employee. No text, logos, watermarks or signs. No extra limbs, no distorted hands.",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-c632bb5b-8f86-4062-b9c6-ab30aee1efdb.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-02.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png"
+      ],
+      "bytes": 1722348,
+      "sha256": "3f85d53f1af3d4de608bd7d87d8d13df6a096fd49a5afb8a38aaed610f3ffcfa",
+      "packagedFile": "public/media/team-02.webp",
+      "packagedSha256": "411adf150021c7805a7d376a35a2b04790fa81b4a06e73bad8986cd65dd17a66",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-03",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "requestedAspect": "4:5",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical professional team-card portrait for a premium digital-services agency.\nInput images: Image 1 is an identity reference showing six original fictional people. Use only the specified person as the identity reference; photograph this same fictional person individually in a new studio setting.\nSubject: the South Asian woman in the center-right of the reference group, approximately 31, long straight dark hair, black tailored blazer and simple black top. Preserve the recognizable facial structure, skin tone, hair and clothing of this exact person from the reference.\nPrimary request: One waist-up studio portrait of this fictional team member, composed friendly expression, shoulders angled slightly left, hands resting naturally, looking toward the camera.\nScene/backdrop: Uniform softly textured neutral dark-gray seamless studio background, softly lit, no office objects. This backdrop and lighting should match a consistent six-person portrait series.\nStyle/medium: Premium natural professional photography with realistic skin texture, believable anatomy, gentle medium-format depth of field, human warmth and subtle imperfections.\nComposition/framing: Exactly 4:5 portrait, one person centered, head in upper third, both shoulders entirely visible, a little breathing room above head and to sides, waist-up framing, clean silhouette.\nLighting/mood: Soft broad windowlike key light from camera left, gentle fill, restrained silver edge light. Clear facial detail and quiet cinematic contrast.\nColor palette: Charcoal, silver-gray, black clothes, natural skin. No green lighting or green tint.\nConstraints: One original fictional person only, representative placeholder portrait not a real employee. No text, logos, watermarks or signs. No extra limbs, no distorted hands.",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-f52bcc56-6322-44ed-8062-c3c5a7cd2bfc.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-03.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png"
+      ],
+      "bytes": 1787976,
+      "sha256": "9e7fcd201495f765da1d5878d8d1743ed8a38913e257cd619a384a73f8c9af10",
+      "packagedFile": "public/media/team-03.webp",
+      "packagedSha256": "a8ec777f26bc3d323fb16e556dce0c07a50e2c0ec39faf21d048475987f0f108",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-04",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "requestedAspect": "4:5",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical professional team-card portrait for a premium digital-services agency.\nInput images: Image 1 is an identity reference showing six original fictional people. Use only the specified person as the identity reference; photograph this same fictional person individually in a new studio setting.\nSubject: the East Asian man seated near the center-left of the reference group, approximately 30, gently parted black hair, charcoal knit polo. Preserve the recognizable facial structure, skin tone, hair and clothing of this exact person from the reference.\nPrimary request: One waist-up studio portrait of this fictional team member, subtle friendly smile, relaxed shoulders, hands loosely resting at waist, looking toward the camera.\nScene/backdrop: Uniform softly textured neutral dark-gray seamless studio background, softly lit, no office objects. This backdrop and lighting should match a consistent six-person portrait series.\nStyle/medium: Premium natural professional photography with realistic skin texture, believable anatomy, gentle medium-format depth of field, human warmth and subtle imperfections.\nComposition/framing: Exactly 4:5 portrait, one person centered, head in upper third, both shoulders entirely visible, a little breathing room above head and to sides, waist-up framing, clean silhouette.\nLighting/mood: Soft broad windowlike key light from camera left, gentle fill, restrained silver edge light. Clear facial detail and quiet cinematic contrast.\nColor palette: Charcoal, silver-gray, black clothes, natural skin. No green lighting or green tint.\nConstraints: One original fictional person only, representative placeholder portrait not a real employee. No text, logos, watermarks or signs. No extra limbs, no distorted hands.",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-053a0761-4b09-480b-b3bd-a383a121fabd.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-04.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png"
+      ],
+      "bytes": 2023248,
+      "sha256": "dfe64518a17006d672034eb4ad82780f8c06d0e2e6c68e30235be71c468e6c39",
+      "packagedFile": "public/media/team-04.webp",
+      "packagedSha256": "1149f9cda7c09426ff3970f9e22fe2746c5d2d5d9121e0ca0c439c6f75f9709e",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-05",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "requestedAspect": "4:5",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical professional team-card portrait for a premium digital-services agency.\nInput images: Image 1 is an identity reference showing six original fictional people. Use only the specified person as the identity reference; photograph this same fictional person individually in a new studio setting.\nSubject: the light-skinned woman with wavy shoulder-length auburn hair seated center-right in the reference group, approximately 34, dark tailored jacket. Preserve the recognizable facial structure, skin tone, hair and clothing of this exact person from the reference.\nPrimary request: One waist-up studio portrait of this fictional team member, poised natural smile, shoulders angled slightly right, hands loosely folded at waist, looking toward the camera.\nScene/backdrop: Uniform softly textured neutral dark-gray seamless studio background, softly lit, no office objects. This backdrop and lighting should match a consistent six-person portrait series.\nStyle/medium: Premium natural professional photography with realistic skin texture, believable anatomy, gentle medium-format depth of field, human warmth and subtle imperfections.\nComposition/framing: Exactly 4:5 portrait, one person centered, head in upper third, both shoulders entirely visible, a little breathing room above head and to sides, waist-up framing, clean silhouette.\nLighting/mood: Soft broad windowlike key light from camera left, gentle fill, restrained silver edge light. Clear facial detail and quiet cinematic contrast.\nColor palette: Charcoal, silver-gray, black clothes, natural skin. No green lighting or green tint.\nConstraints: One original fictional person only, representative placeholder portrait not a real employee. No text, logos, watermarks or signs. No extra limbs, no distorted hands.",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-07830192-833c-4049-9544-8a7f0a40e7dc.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-05.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png"
+      ],
+      "bytes": 1808750,
+      "sha256": "262565065021f96f5dfc0aff29d17771ac12770590104d0d52514cfb76113833",
+      "packagedFile": "public/media/team-05.webp",
+      "packagedSha256": "0c717254264c877b9b964b101468f953fe01663806c4c901e5e8428acd244080",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-06",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "requestedAspect": "4:5",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical professional team-card portrait for a premium digital-services agency.\nInput images: Image 1 is an identity reference showing six original fictional people. Use only the specified person as the identity reference; photograph this same fictional person individually in a new studio setting.\nSubject: the Black woman at the far right of the reference group, approximately 29, natural shoulder-length dark curls, black high-neck blouse. Preserve the recognizable facial structure, skin tone, hair and clothing of this exact person from the reference.\nPrimary request: One waist-up studio portrait of this fictional team member, natural warm smile, relaxed upright pose with arms resting at her sides, looking toward the camera.\nScene/backdrop: Uniform softly textured neutral dark-gray seamless studio background, softly lit, no office objects. This backdrop and lighting should match a consistent six-person portrait series.\nStyle/medium: Premium natural professional photography with realistic skin texture, believable anatomy, gentle medium-format depth of field, human warmth and subtle imperfections.\nComposition/framing: Exactly 4:5 portrait, one person centered, head in upper third, both shoulders entirely visible, a little breathing room above head and to sides, waist-up framing, clean silhouette.\nLighting/mood: Soft broad windowlike key light from camera left, gentle fill, restrained silver edge light. Clear facial detail and quiet cinematic contrast.\nColor palette: Charcoal, silver-gray, black clothes, natural skin. No green lighting or green tint.\nConstraints: One original fictional person only, representative placeholder portrait not a real employee. No text, logos, watermarks or signs. No extra limbs, no distorted hands.",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-9dea200a-c4c4-47b8-983c-58f06d9c6a51.png",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-06.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/about-hero.png"
+      ],
+      "bytes": 1731797,
+      "sha256": "fa37939b3ff4dab55fa7f3584491b3fa67208697b6c7436f89a2e7298de9fd8c",
+      "packagedFile": "public/media/team-06.webp",
+      "packagedSha256": "52eb843ca0b7169e58808a624959af65e7d8883d84c736c79eada2eea85becf0",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "about-approach",
+      "requestedAspect": "4:5",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-03.png",
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-04.png"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical editorial About-page photo for a premium digital-services agency.\nInput images: Image 1 and Image 2 are identity and clothing references for two original fictional professionals: the South Asian woman with long dark hair and black blazer, and the East Asian man with parted dark hair and charcoal knit polo. Preserve these fictional identities.\nPrimary request: Photograph exactly these two people collaborating on interface wireframes at a laptop in a refined glass design studio. The woman is seated, studying the laptop; the man sits beside her leaning slightly toward the work. One person points naturally to a paper showing simple gray interface boxes, while the other uses the laptop trackpad. Hands must be anatomically believable.\nScene/backdrop: Black glass partitions, brushed steel details, charcoal table and silver laptop without a logo, understated daylight office. On the laptop, display only abstract monochrome interface wireframe rectangles with no readable text. A couple of wireframe sheets on the table, no clutter.\nStyle/medium: Cinematic natural professional photography, candid collaborative moment, realistic skin texture and believable bodies, shallow depth of field.\nComposition/framing: 4:5 portrait composition, both faces upper half and both bodies visible from seated waist upward, laptop in lower middle, generous comfortable crop.\nLighting/mood: Soft neutral window light, subtle silver highlights, quietly focused mood.\nColor palette: Black, charcoal, gray, silver, natural skin tones. No green lights, no green palette.\nConstraints: Exactly two original fictional people. No text, no logos, no watermark, no visible company names. Representative placeholder scene, not actual employees.",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/about-approach.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-ff94e3e6-42ee-4af8-b592-1bb7f104b55d.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1894651,
+      "sha256": "a224868242c1a826cd0d46c2d0e26df7f71202dd85de3870452e37930ccadae5",
+      "packagedFile": "public/media/about-approach.webp",
+      "packagedSha256": "6eededf4719b03f8886b43c74e1f73e43645b3986450d62cf0b925b15c9ca901",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "about-results",
+      "requestedAspect": "4:5",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-02.png",
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-06.png"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical editorial About-page photo for a premium digital-services agency.\nInput images: Image 1 and Image 2 are identity and clothing references for two original fictional professionals: the Black man with closely cropped hair and black overshirt, and the Black woman with shoulder-length natural dark curls and black high-neck blouse. Preserve these fictional identities and their clothing.\nPrimary request: Exactly these two colleagues in a focused engineering discussion over a laptop at a charcoal desk in a refined modern studio. The woman sits at the laptop and the man is seated alongside at a slight angle, reviewing a result together with subtle, thoughtful expressions. Their eye-lines are toward the laptop or one another. One natural open hand gesture, other hands rest near the keyboard.\nScene/backdrop: Quiet dark office with black shelving, silver architectural details and a glass wall, a laptop without a logo. Any visible screen contains abstract neutral-gray charts and blocks only, no readable text, no green or colored syntax.\nStyle/medium: Believable candid professional photography, realistic facial texture, plausible hands and proportions, elegant cinematic framing.\nComposition/framing: Exactly 4:5 vertical, show both faces clearly in upper half, laptop in lower foreground, seated waist-up framing.\nLighting/mood: Neutral daylight from side, restrained cool silver highlights, professional but human.\nColor palette: Charcoal, black, silver and natural skin tones, no green lighting or green tint.\nConstraints: Exactly two people, both original fictional representative placeholders. No text, logos, watermarks, extra limbs or strange fingers.",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/about-results.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-2c74a4c7-ad7b-4210-8f6f-fa099ba2bfbd.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1795213,
+      "sha256": "c91d33f6a53b4789c446169083093db8402bc5c68a23544dcf902eab648b32f0",
+      "packagedFile": "public/media/about-results.webp",
+      "packagedSha256": "4499e67fa508d6a77f7f66fb01940809c256be87d696d18dbda4ba64bf2e6838",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "about-achievements",
+      "requestedAspect": "16:9",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-01.png",
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-05.png",
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-06.png"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 16:9 wide editorial About-page achievements background for a premium digital-services agency.\nInput images: The three inputs are identity and clothing references of original fictional colleagues: South Asian founder in charcoal jacket and light-gray crewneck, auburn-haired woman in black blazer, and Black woman with natural dark curls and black high-neck blouse. Preserve all three fictional identities.\nPrimary request: Photograph exactly these three people together in a collaborative planning workshop. They gather around the far side of a broad charcoal conference table, examining a few simple monochrome layout sheets and a silver laptop without logos, having a candid professional conversation.\nScene/backdrop: Refined black and silver studio office, glass partitions, discreet abstract design boards without writing. Keep the setting credible and uncluttered.\nStyle/medium: High-end natural editorial photography, convincing people and hands, quiet cinematic realism.\nComposition/framing: Exactly 16:9 landscape. All three faces in upper half of frame, group occupies upper/middle section, broad uninterrupted dark charcoal table fills lower third as quiet negative space for counters to be overlaid by website. No text in the photo.\nLighting/mood: Soft neutral window side light, believable silver reflections, subtle dark exposure with legible faces.\nColor palette: Black, charcoal, silver, natural skin tones. No green lighting or green palette.\nConstraints: Exactly three original fictional people. No text, logos, watermarks, branded devices, bright colors, extra limbs or distorted hands. Representative placeholder scene, not real employees.",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/about-achievements.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-0592cabe-805b-4901-860c-cc1a0e20288a.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1835498,
+      "sha256": "26276647ad8d094a16897712841ef6a8b5d5a632c745c37345c6543c0b954881",
+      "packagedFile": "public/media/about-achievements.webp",
+      "packagedSha256": "ee14091ad2fd80cf86b2ae36f35f6f7d2863f334442b61e50f9d1015be96f30d",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "about-founder",
+      "requestedAspect": "4:5",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-01.png"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 4:5 vertical founder portrait for a premium digital-services agency About page.\nInput images: Image 1 is the identity and clothing reference for an original fictional South Asian man, short softly textured black hair and neatly trimmed short beard, charcoal jacket over light-gray crewneck. Preserve this exact recognizable fictional face, hair, skin tone and clothing.\nPrimary request: Create a new waist-up portrait from the same professional photographic shoot, the man standing with arms folded naturally across his torso, confident but approachable expression, looking directly at camera.\nScene/backdrop: Near-black softly textured studio backdrop, charcoal floor not visible, no props.\nStyle/medium: Premium natural professional photography with realistic skin texture, elegant medium-format realism, plausible arms and hands.\nComposition/framing: Exactly 4:5 portrait, person centered, whole head and both shoulders visible, waist-up, face in upper third, enough breathing room around the shoulders.\nLighting/mood: Broad soft neutral key light from camera left, silver edge highlight, clear face and dark dramatic backdrop.\nColor palette: Black, charcoal, silver, gray and natural skin tones. No green tint or colored lighting.\nConstraints: One original fictional person only, representative placeholder founder portrait not a real employee. No text, logos or watermark. Arms fold with natural anatomy, five fingers per visible hand, no duplicated hands.",
+      "mode": "built-in image_gen",
+      "intent": "generate from identity reference",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/about-founder.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-e94cae99-f78f-49a7-ab71-9ccdce2aeeb5.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1823398,
+      "sha256": "bc00b34dd226ac794dfe3c7aaf224532f78e39052fd75a734dde47b3b25a214c",
+      "packagedFile": "public/media/about-founder.webp",
+      "packagedSha256": "9a45e0f9cdb819c708b4ee95408b3cc3b7f00108bb2e495ce915bae2ab122ece",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-01-alt",
+      "mode": "built-in image_gen",
+      "intent": "identity-preserve edit",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-01.png"
+      ],
+      "requestedAspect": "4:5",
+      "prompt": "Use case: identity-preserve.\nAsset type: Second photograph for an existing team-card hover crossfade.\nInput images: Image 1 is the edit target and identity reference, a portrait of an original fictional professional.\nPrimary request: Produce the companion portrait from the same studio shoot with only a subtle change of pose and expression. Keep the same relaxed stance and hand placement, turn the shoulders a few degrees toward camera right, and replace the subtle smile with a slightly warmer natural smile.\nInvariants: Preserve exactly the same recognizable fictional person, facial structure, age, skin tone, hairstyle, clothing, neutral dark-gray textured studio backdrop, camera, soft light from left, color palette, waist-up framing, subject scale and crop. Keep the head in almost the same position so it crossfades smoothly with the original. Preserve realistic pores and fabric texture.\nComposition/framing: Exactly 4:5 vertical, same portrait framing as reference. One person, head and both shoulders visible, no added objects.\nStyle/medium: Natural premium professional photography, realistic human anatomy.\nConstraints: No green tint, no text, no logos, no watermark, no extra person, no altered identity, no extra hands or fingers. These are fictional representative placeholders, not real employee portraits.",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-01-alt.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-64d467b7-6a2a-47a6-9bba-fc3bf75b0fd7.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1802987,
+      "sha256": "ef1f0aac35206a6c07b7c06ffc30387ed66061dc2b891534dcb08bd7754f6432",
+      "packagedFile": "public/media/team-01-alt.webp",
+      "packagedSha256": "3c60e53f3b7cc74271fba316a191aa30f97a34a7a726e5763df1285fed02da6f",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-02-alt",
+      "mode": "built-in image_gen",
+      "intent": "identity-preserve edit",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-02.png"
+      ],
+      "requestedAspect": "4:5",
+      "prompt": "Use case: identity-preserve.\nAsset type: Second photograph for an existing team-card hover crossfade.\nInput images: Image 1 is the edit target and identity reference, a portrait of an original fictional professional.\nPrimary request: Produce the companion portrait from the same studio shoot with only a subtle change of pose and expression. Keep the same stance, gently straighten the head tilt and show a slightly more open, friendly natural smile; hands remain together near the waist.\nInvariants: Preserve exactly the same recognizable fictional person, facial structure, age, skin tone, hairstyle, clothing, neutral dark-gray textured studio backdrop, camera, soft light from left, color palette, waist-up framing, subject scale and crop. Keep the head in almost the same position so it crossfades smoothly with the original. Preserve realistic pores and fabric texture.\nComposition/framing: Exactly 4:5 vertical, same portrait framing as reference. One person, head and both shoulders visible, no added objects.\nStyle/medium: Natural premium professional photography, realistic human anatomy.\nConstraints: No green tint, no text, no logos, no watermark, no extra person, no altered identity, no extra hands or fingers. These are fictional representative placeholders, not real employee portraits.",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-02-alt.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-91fd77b7-1d3c-42ce-b841-fdc6e9ac93bd.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1654047,
+      "sha256": "a2fc34275b86610b4704d6c1431364292a949f7e11ec3d2145829ef3494911d7",
+      "packagedFile": "public/media/team-02-alt.webp",
+      "packagedSha256": "5ccff2388ca179dfb00ebac72e05df9054293c989a7af7268d6ed4735d185c6b",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-03-alt",
+      "mode": "built-in image_gen",
+      "intent": "identity-preserve edit",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-03.png"
+      ],
+      "requestedAspect": "4:5",
+      "prompt": "Use case: identity-preserve.\nAsset type: Second photograph for an existing team-card hover crossfade.\nInput images: Image 1 is the edit target and identity reference, a portrait of an original fictional professional.\nPrimary request: Produce the companion portrait from the same studio shoot with only a subtle change of pose and expression. Keep the same pose with hands in trouser pockets, turn her face a few degrees toward camera left and add a slightly warmer natural smile.\nInvariants: Preserve exactly the same recognizable fictional person, facial structure, age, skin tone, hairstyle, clothing, neutral dark-gray textured studio backdrop, camera, soft light from left, color palette, waist-up framing, subject scale and crop. Keep the head in almost the same position so it crossfades smoothly with the original. Preserve realistic pores and fabric texture.\nComposition/framing: Exactly 4:5 vertical, same portrait framing as reference. One person, head and both shoulders visible, no added objects.\nStyle/medium: Natural premium professional photography, realistic human anatomy.\nConstraints: No green tint, no text, no logos, no watermark, no extra person, no altered identity, no extra hands or fingers. These are fictional representative placeholders, not real employee portraits.",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-03-alt.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-6e67cbde-b5ee-4942-a822-5d0511ef0dc9.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1662156,
+      "sha256": "c1c24b273d76091b68b97bbb2480fa24b1459ce6c5d42e121f1b6b8e7ba7149c",
+      "packagedFile": "public/media/team-03-alt.webp",
+      "packagedSha256": "fa7ad9e73eec36eb787c3b7e7e8fc185b3b61c27da57a6d85fa476d10c675491",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-04-alt",
+      "mode": "built-in image_gen",
+      "intent": "identity-preserve edit",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-04.png"
+      ],
+      "requestedAspect": "4:5",
+      "prompt": "Use case: identity-preserve.\nAsset type: Second photograph for an existing team-card hover crossfade.\nInput images: Image 1 is the edit target and identity reference, a portrait of an original fictional professional.\nPrimary request: Produce the companion portrait from the same studio shoot with only a subtle change of pose and expression. Keep the same seated waist-up pose and arm placement, turn the shoulders slightly toward camera right and add a warm, small natural smile.\nInvariants: Preserve exactly the same recognizable fictional person, facial structure, age, skin tone, hairstyle, clothing, neutral dark-gray textured studio backdrop, camera, soft light from left, color palette, waist-up framing, subject scale and crop. Keep the head in almost the same position so it crossfades smoothly with the original. Preserve realistic pores and fabric texture.\nComposition/framing: Exactly 4:5 vertical, same portrait framing as reference. One person, head and both shoulders visible, no added objects.\nStyle/medium: Natural premium professional photography, realistic human anatomy.\nConstraints: No green tint, no text, no logos, no watermark, no extra person, no altered identity, no extra hands or fingers. These are fictional representative placeholders, not real employee portraits.",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-04-alt.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-7e41c067-1653-4e20-9bdc-f4c347597554.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1850000,
+      "sha256": "abbbe61a405b45b446349e6f8152d0deafd64e795ef6134ff45658a610a1bcf8",
+      "packagedFile": "public/media/team-04-alt.webp",
+      "packagedSha256": "f5e8d90b6298458b2fadda228e153779914fe2ac94a6f45ceab5515f90e1abff",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-05-alt",
+      "mode": "built-in image_gen",
+      "intent": "identity-preserve edit",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-05.png"
+      ],
+      "requestedAspect": "4:5",
+      "prompt": "Use case: identity-preserve.\nAsset type: Second photograph for an existing team-card hover crossfade.\nInput images: Image 1 is the edit target and identity reference, a portrait of an original fictional professional.\nPrimary request: Produce the companion portrait from the same studio shoot with only a subtle change of pose and expression. Keep the same seated waist-up pose and hands, turn the face a few degrees toward camera left with a slightly brighter natural smile.\nInvariants: Preserve exactly the same recognizable fictional person, facial structure, age, skin tone, hairstyle, clothing, neutral dark-gray textured studio backdrop, camera, soft light from left, color palette, waist-up framing, subject scale and crop. Keep the head in almost the same position so it crossfades smoothly with the original. Preserve realistic pores and fabric texture.\nComposition/framing: Exactly 4:5 vertical, same portrait framing as reference. One person, head and both shoulders visible, no added objects.\nStyle/medium: Natural premium professional photography, realistic human anatomy.\nConstraints: No green tint, no text, no logos, no watermark, no extra person, no altered identity, no extra hands or fingers. These are fictional representative placeholders, not real employee portraits.",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-05-alt.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-f19a1802-e9a3-485d-8a8c-8e3efdd364b5.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1660077,
+      "sha256": "2c31200a07915cf2a1941d8457240bd59a35324314f77cfee9eac881661746fc",
+      "packagedFile": "public/media/team-05-alt.webp",
+      "packagedSha256": "f7adca0758fe5edb6578e1c43b0ea8bb2a9688eea3224978fab06d99b4175c00",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    },
+    {
+      "name": "team-06-alt",
+      "mode": "built-in image_gen",
+      "intent": "identity-preserve edit",
+      "references": [
+        "/workspace/scratch/e93152c89c06/verendo-assets/team-06.png"
+      ],
+      "requestedAspect": "4:5",
+      "prompt": "Use case: identity-preserve.\nAsset type: Second photograph for an existing team-card hover crossfade.\nInput images: Image 1 is the edit target and identity reference, a portrait of an original fictional professional.\nPrimary request: Produce the companion portrait from the same studio shoot with only a subtle change of pose and expression. Keep the same standing pose with arms at her sides, turn her shoulders a few degrees toward camera left and give a slightly brighter relaxed smile.\nInvariants: Preserve exactly the same recognizable fictional person, facial structure, age, skin tone, hairstyle, clothing, neutral dark-gray textured studio backdrop, camera, soft light from left, color palette, waist-up framing, subject scale and crop. Keep the head in almost the same position so it crossfades smoothly with the original. Preserve realistic pores and fabric texture.\nComposition/framing: Exactly 4:5 vertical, same portrait framing as reference. One person, head and both shoulders visible, no added objects.\nStyle/medium: Natural premium professional photography, realistic human anatomy.\nConstraints: No green tint, no text, no logos, no watermark, no extra person, no altered identity, no extra hands or fingers. These are fictional representative placeholders, not real employee portraits.",
+      "path": "/workspace/scratch/e93152c89c06/verendo-assets/team-06-alt.png",
+      "originalPath": "/workspace/scratch/e93152c89c06/generated_images/exec-68114692-0ac3-40b7-bac3-b560dc361ec9.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1609271,
+      "sha256": "66eff34f4680c98f2a37e66eb3186ee11bbac5a6bafe42f23675ca808933a875",
+      "packagedFile": "public/media/team-06-alt.webp",
+      "packagedSha256": "a6b57a925e2a8cff9eb22f7262097e1346e98339109444c597c29ca9090ebb72",
+      "encoding": "WebP, quality 88; original dimensions and composition preserved"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+VERENDO 1.0.3 — START HERE
+
+1. VS Code mein purana running server Ctrl+C se stop karein.
+2. Is ZIP ko NEW EMPTY folder mein extract karein; purane folder mein merge na karein.
+3. Andar wala verendo folder VS Code mein open karein (jahan package.json hai).
+4. Terminal mein line by line:
+
+npm ci
+npm run dev
+
+5. Ready ke baad http://localhost:3000 open karein.
+   Terminal par verendo@1.0.3 aur next dev --webpack --port 3000 hona chahiye.
+   Agar port busy ho to purana server band karein.
+
+Production check (dev server ko Ctrl+C se stop karne ke baad):
+
+npm run build
+npm run check:routes
+npm run start
+
+Vercel: Framework Next.js, Install npm ci, Build npm run build,
+Output Directory override OFF. Root woh folder jahan package.json hai.
+
+Note: Clean Linux checks pass hue. Video wala Windows 404 reproduce nahi hua.
+Agar fresh folder mein phir issue ho, red Issue badge expand karke exact error
+aur terminal output bhejein. Tests ki details docs/VERENDO-VALIDATION.md mein hain.

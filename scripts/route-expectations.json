@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "heading": "Designed. Built. Delivered."
+    },
+    {
+      "path": "/projects",
+      "heading": "Software, Apps & Digital Experiences"
+    },
+    {
+      "path": "/about",
+      "heading": "The Minds Behind the Automation"
+    },
+    {
+      "path": "/blog",
+      "heading": "Insights on AI & Automation"
+    },
+    {
+      "path": "/contact",
+      "heading": "Let’s talk about your workflow"
+    },
+    {
+      "path": "/legal/privacy-policy",
+      "heading": "Privacy Policy"
+    },
+    {
+      "path": "/legal/terms-conditions",
+      "heading": "Terms & Conditions"
+    },
+    {
+      "path": "/projects/streamscale-streaming-platform",
+      "heading": "StreamScale: A Netflix-Inspired Streaming Platform"
+    },
+    {
+      "path": "/projects/eventsphere-event-management-app",
+      "heading": "EventSphere: One Connected Event Management App"
+    },
+    {
+      "path": "/projects/tummly-restaurant-saas-design",
+      "heading": "Tummly: Software Design for Restaurant Operations"
+    },
+    {
+      "path": "/projects/verendo-digital-agency-website",
+      "heading": "Verendo: A Website Built Around Digital Services"
+    },
+    {
+      "path": "/blog/building-smarter-ai-tools",
+      "heading": "Building Smarter AI Tools for the Future of Scalable Businesses"
+    },
+    {
+      "path": "/blog/how-to-get-better-results-from-ai",
+      "heading": "How to Get 1000% Better Results From AI With Smarter Workflows"
+    },
+    {
+      "path": "/blog/announcing-our-new-funding-round-to-series-a",
+      "heading": "Announcing Our New Funding Round to Series A"
+    },
+    {
+      "path": "/blog/how-startups-can-do-more-with-less",
+      "heading": "How AI Startups Can Do More With Less Work Using Automation"
+    },
+    {
+      "path": "/blog/rise-of-ai-agents-autonomous-systems",
+      "heading": "How Autonomous Systems Are Changing Work"
+    },
+    {
+      "path": "/blog/from-chaos-to-clarity-designing-ai-workflows-that-scale",
+      "heading": "Designing AI Workflows That Scale & Help You Daily"
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/projects/measurable-growth-with-proven-impact.-copy-copy-copy",
+      "to": "/projects/streamscale-streaming-platform"
+    },
+    {
+      "from": "/projects/measurable-growth-with-proven-impact.-copy-copy",
+      "to": "/projects/eventsphere-event-management-app"
+    },
+    {
+      "from": "/projects/measurable-growth-with-proven-impact.-copy",
+      "to": "/projects/tummly-restaurant-saas-design"
+    },
+    {
+      "from": "/projects/scaling-shinta%E2%80%99s-influencers-marketing-for-growth",
+      "to": "/projects/verendo-digital-agency-website"
+    }
+  ]
+}

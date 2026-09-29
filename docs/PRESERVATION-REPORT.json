@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-27",
+  "scope": "Personalization of the uploaded source ZIP; no publishing performed",
+  "checks": [
+    {
+      "check": "All original CSS files are byte-for-byte unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Animation, shared navigation/forms/footer, UI primitives and existing media are byte-for-byte unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "All blog post data is unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Blog source block is byte-for-byte unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Blog renderers, contact/legal pages and motion component implementations are unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Every CSS class, inline style and motion/reveal property in edited components is unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Scroll and transform hook calls are unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Testimonial quote/name/role/logo data is unchanged; only portraits differ",
+      "result": "passed"
+    },
+    {
+      "check": "Pricing amounts, plan names, team data and decorative media references are unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Four unique projects and all four legacy redirects are configured",
+      "result": "passed"
+    },
+    {
+      "check": "All referenced content images exist locally",
+      "result": "passed"
+    }
+  ],
+  "counts": {
+    "projects": 4,
+    "blogPosts": 6,
+    "services": 4,
+    "testimonials": 3
+  }
+}

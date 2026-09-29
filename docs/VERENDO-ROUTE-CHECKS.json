@@ -1,0 +1,356 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/projects",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/legal/privacy-policy",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/legal/terms-conditions",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/projects/streamscale-streaming-platform",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/projects/eventsphere-event-management-app",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/projects/tummly-restaurant-saas-design",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/projects/verendo-digital-agency-website",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog/building-smarter-ai-tools",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog/how-to-get-better-results-from-ai",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog/announcing-our-new-funding-round-to-series-a",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog/how-startups-can-do-more-with-less",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog/rise-of-ai-agents-autonomous-systems",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/blog/from-chaos-to-clarity-designing-ai-workflows-that-scale",
+      "status": 200,
+      "expected": 200,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/404",
+      "status": 404,
+      "expected": 404,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/not-a-real-page",
+      "status": 404,
+      "expected": 404,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/100%25",
+      "status": 404,
+      "expected": 404,
+      "pass": true,
+      "oldBrand": false,
+      "nosniff": true,
+      "framing": "SAMEORIGIN",
+      "poweredBy": null
+    },
+    {
+      "path": "/projects/measurable-growth-with-proven-impact.-copy-copy-copy",
+      "status": 307,
+      "location": "/projects/streamscale-streaming-platform",
+      "pass": true
+    },
+    {
+      "path": "/projects/measurable-growth-with-proven-impact.-copy-copy",
+      "status": 307,
+      "location": "/projects/eventsphere-event-management-app",
+      "pass": true
+    },
+    {
+      "path": "/projects/measurable-growth-with-proven-impact.-copy",
+      "status": 307,
+      "location": "/projects/tummly-restaurant-saas-design",
+      "pass": true
+    },
+    {
+      "path": "/projects/scaling-shinta’s-influencers-marketing-for-growth",
+      "status": 307,
+      "location": "/projects/verendo-digital-agency-website",
+      "pass": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/media/about-hero.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/verendo-v-poster.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/verendo-v-landscape.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-01.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-02.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-03.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-04.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-05.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-06.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/about-approach.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/about-results.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/about-achievements.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/about-founder.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-01-alt.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-02-alt.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-03-alt.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-04-alt.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-05-alt.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/team-06-alt.webp",
+      "status": 200,
+      "pass": true,
+      "type": "image/webp"
+    },
+    {
+      "path": "/media/verendo-logo.svg",
+      "status": 200,
+      "pass": true,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "pass": true,
+      "type": "image/svg+xml"
+    }
+  ]
+}

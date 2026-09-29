@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "original_css_unchanged": true,
+    "motion_helpers_unchanged": true,
+    "vendor_ui_unchanged": true,
+    "original_media_unchanged": true,
+    "projects_preserved_except_brand": true,
+    "services_preserved_except_brand": true,
+    "steps_preserved_except_brand": true,
+    "testimonials_preserved_except_brand": true,
+    "metrics_preserved_except_brand": true,
+    "plans_preserved_except_brand": true,
+    "faqs_preserved_except_brand": true,
+    "posts_preserved_except_brand": true,
+    "all_content_media_present": true,
+    "no_old_brand_in_runtime_source": true
+  },
+  "missing_media": [],
+  "referenced_content_media": 68
+}
