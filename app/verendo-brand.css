@@ -110,3 +110,7 @@
     transition: none;
   }
 }
+
+.pain-section .pain-title h2 {
+  color: #ffffff;
+}
