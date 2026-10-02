@@ -2,7 +2,7 @@
 export const config = {
   name: "Verendo",
   email: "8174245usama@gmail.com",
-  phone: "+12 345 678",
+  phone: "+1 971 399 4753",
   // Shared destination for every "Book 15-mins call" contact card.
   bookingUrl: "https://wa.me/19713994753",
   // Optional HTTPS endpoints. Expect JSON and return a successful 2xx response.
