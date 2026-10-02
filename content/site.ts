@@ -48,18 +48,14 @@ export const companyLogos = [
   ["Mandala", "Mld8FcmFfxKKmF9yh6rbn1Bk620.png"],
   ["Velox", "r2YvmLhS92NVgMeXKrRsaKHOxQ.png"],
 ];
-export const integrations = [
-  "VFOWwk1omnNdtAV95ucHECcG0.avif",
-  "Xg09Q3ssdnXZSyZVtynHmYY4Rhk.avif",
-  "q7Eiknql3X401kZ8kwl71NRObE.avif",
-  "RhybG1B3qiYHsokZoMGjungHM8.avif",
-  "c6DFpetIcvDCVe9uNQg1oiG4L4Y.avif",
-  "CIHjetcStHQqQKRmeOEyueVuFo.avif",
-  "xt3TolGUNwC9t6eJX6zBFIj0.avif",
-  "v03XHsUTDqdviYG2kgUK9BlKw.avif",
-  "cPaNi6g5hmh2AGBz8qb2tJdI4A4.avif",
-  "DCFXp149emUamIIe8OioTFslt0.avif",
-  "FhwHvnF52zLuzWE30ot3XcUIuL0.avif",
+// Original Verendo design concepts; these are not launched products or client work.
+export const demoProducts = [
+  { name: "Verendo Desk", category: "Customer management", image: "demo-products/verendo-desk.svg" },
+  { name: "Verendo Flow", category: "Workflow automation", image: "demo-products/verendo-flow.svg" },
+  { name: "Verendo Book", category: "Appointment booking", image: "demo-products/verendo-book.svg" },
+  { name: "Verendo Cart", category: "Online commerce", image: "demo-products/verendo-cart.svg" },
+  { name: "Verendo Pulse", category: "Business analytics", image: "demo-products/verendo-pulse.svg" },
+  { name: "Verendo Assist", category: "AI assistance", image: "demo-products/verendo-assist.svg" },
 ];
 export const projects = [
   {

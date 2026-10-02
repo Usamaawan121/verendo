@@ -39,7 +39,7 @@ import {
   assets,
   companyLogos,
   faqs,
-  integrations,
+  demoProducts,
   media,
   metrics,
   plans,
@@ -384,16 +384,20 @@ function HowItWorks() {
   );
 }
 function Integration() {
+  const rows = [
+    demoProducts,
+    [...demoProducts.slice(3), ...demoProducts.slice(0, 3)],
+  ];
   return (
     <section className="integration-section section-space">
       <SectionHeading
-        eyebrow="Integration"
-        title="Your Product, Connected"
-        description="Connect your website or application with the tools your business uses, from payments and CRM to email and analytics."
+        eyebrow="Demo Concepts"
+        title="Product Ideas, by Verendo"
+        description="Six original design concepts exploring CRM, bookings, commerce, analytics and automation. Created for our demo portfolio."
         center
       />
       <div className="integration-mask">
-        {[0, 1].map((row) => (
+        {rows.map((products, row) => (
           <div
             className={`integration-track ${row ? "reverse" : ""}`}
             key={row}
@@ -401,20 +405,31 @@ function Integration() {
             {[0, 1].map((copy) => (
               <div
                 className="integration-set"
-                aria-hidden={copy === 1}
+                aria-hidden={row === 1 || copy === 1}
                 key={copy}
               >
-                {integrations
-                  .slice(row ? 5 : 0, row ? 11 : 6)
-                  .map((file, i) => (
-                    <div className="integration-logo" key={file}>
+                {products.map((product) => (
+                  <div
+                    className="integration-logo"
+                    key={product.name}
+                    role="img"
+                    aria-label={`${product.name}: ${product.category} demo concept`}
+                    title={`${product.name} — ${product.category} (demo concept)`}
+                  >
+                    <div style={{ display: "grid", justifyItems: "center", gap: 6 }}>
                       <img
-                        src={media(file)}
-                        alt={copy === 0 ? `Connected platform ${i + 1}` : ""}
+                        src={media(product.image)}
+                        alt=""
+                        width={48}
+                        height={48}
                         loading="lazy"
                       />
+                      <span style={{ fontSize: 12, lineHeight: "16px", color: "#a1a1aa" }}>
+                        {product.name}
+                      </span>
                     </div>
-                  ))}
+                  </div>
+                ))}
               </div>
             ))}
           </div>
