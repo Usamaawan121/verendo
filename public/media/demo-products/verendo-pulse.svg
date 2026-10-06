@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <title>Verendo Pulse concept mark</title>
+  <path d="M10 27v12m9-7v7m10-13v13m9-24v24" stroke="#a1a1aa" stroke-width="4" stroke-linecap="round"/>
+  <path d="m8 15 11 10 17-16" stroke="#d4d4d8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="37" cy="8" r="4" fill="#d4d4d8"/>
+</svg>

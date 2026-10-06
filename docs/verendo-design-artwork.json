@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-03",
+  "purpose": "Original Verendo website illustrations",
+  "palette": {
+    "background": "#050705",
+    "accent": "#32CD32",
+    "material": "black graphite and dark green glass"
+  },
+  "originalPrompts": [
+    [
+      "hero",
+      "Use case: stylized-concept. Premium 3D product illustration for Verendo, a contemporary digital agency. Exact visual family: vivid lime green #32CD32, polished dark graphite, brushed chrome, clear thick glass. Crisp studio lighting, sophisticated bevels, realistic reflections, strong dimensional depth, restrained green glow. Transparent background with true alpha, no floor, no shadow outside the object, no text, no letters, no logos, no watermarks. The object fully inside the frame with generous breathing room. Designed to sit on a near-black website. Asset type: large square hero artwork. Original abstract sculpture communicating three services working as one: three floating modular graphite and clear-glass cubes arranged in an ascending diagonal, interlinked by a single elegant tubular green arc, with a luminous green core inside the central glass cube and a small floating chrome sphere for balance. A single coherent sculptural object, not a collage or interface screenshot. Dynamic three-quarter isometric angle, elegant architectural proportions, clean large shapes and exquisite material detail. Fill central 78 percent of composition, centered. No V symbol, no people, no arrows."
+    ],
+    [
+      "discover",
+      "Use case: stylized-concept. Premium 3D product illustration for Verendo, a contemporary digital agency. Exact visual family: vivid lime green #32CD32, polished dark graphite, brushed chrome, clear thick glass. Crisp studio lighting, sophisticated bevels, realistic reflections, strong dimensional depth, restrained green glow. Transparent background with true alpha, no floor, no shadow outside the object, no text, no letters, no logos, no watermarks. The object fully inside the frame with generous breathing room. Designed to sit on a near-black website. Asset type: isolated square process icon. One beautiful oversized 3D magnifying glass with a thick clear lime green circular rim, subtle refractive glass lens and a short graphite metal handle tilted diagonally lower right. Friendly chunky yet refined proportions. Three-quarter product render. Centered, fill 68 percent. No other objects."
+    ],
+    [
+      "plan",
+      "Use case: stylized-concept. Premium 3D product illustration for Verendo, a contemporary digital agency. Exact visual family: vivid lime green #32CD32, polished dark graphite, brushed chrome, clear thick glass. Crisp studio lighting, sophisticated bevels, realistic reflections, strong dimensional depth, restrained green glow. Transparent background with true alpha, no floor, no shadow outside the object, no text, no letters, no logos, no watermarks. The object fully inside the frame with generous breathing room. Designed to sit on a near-black website. Asset type: isolated square process icon. One beautiful upright 3D desk planning calendar: thick luminous lime green stand, curved black metal binding rings, matte ivory blank page with a restrained 3 by 3 grid of very faint grey squares, one green square. Slightly tilted three-quarter product view, centered, fill 68 percent. No numbers, dates, text or other objects."
+    ],
+    [
+      "build",
+      "Use case: stylized-concept. Premium 3D product illustration for Verendo, a contemporary digital agency. Exact visual family: vivid lime green #32CD32, polished dark graphite, brushed chrome, clear thick glass. Crisp studio lighting, sophisticated bevels, realistic reflections, strong dimensional depth, restrained green glow. Transparent background with true alpha, no floor, no shadow outside the object, no text, no letters, no logos, no watermarks. The object fully inside the frame with generous breathing room. Designed to sit on a near-black website. Asset type: isolated square process icon. One beautiful chunky 3D browser window slab with a lime green beveled outer frame, three tiny graphite circles on its top bar, a blank matte ivory interior carrying ONLY a pair of large solid graphite code angle brackets and a diagonal slash as sculptural shapes, three-quarter product view. Refined compact proportions, centered, fill 68 percent. No other objects, no readable text."
+    ],
+    [
+      "launch",
+      "Use case: stylized-concept. Premium 3D product illustration for Verendo, a contemporary digital agency. Exact visual family: vivid lime green #32CD32, polished dark graphite, brushed chrome, clear thick glass. Crisp studio lighting, sophisticated bevels, realistic reflections, strong dimensional depth, restrained green glow. Transparent background with true alpha, no floor, no shadow outside the object, no text, no letters, no logos, no watermarks. The object fully inside the frame with generous breathing room. Designed to sit on a near-black website. Asset type: isolated square process icon. One beautiful solid 3D upward-forward pointing cursor arrow, thick beveled clear lime green glass with a graphite rear edge, tilted diagonally toward the upper right. Soft inner glow, crisp physical edges and studio reflections. Centered, fill 65 percent, no other objects."
+    ]
+  ],
+  "finalEdit": "Preserve the object and transparent background. Recolor yellow/lime to leaf green #32CD32. Make all major white, ivory and silver planes graphite black; calendar paper and browser panel black, lens dark smoky green. Keep only small reflective highlights and green rim light. No text or watermark.",
+  "files": [
+    {
+      "file": "public/media/design/hero.webp",
+      "purpose": "hero"
+    },
+    {
+      "file": "public/media/design/discover.webp",
+      "purpose": "discover"
+    },
+    {
+      "file": "public/media/design/plan.webp",
+      "purpose": "plan"
+    },
+    {
+      "file": "public/media/design/build.webp",
+      "purpose": "build"
+    },
+    {
+      "file": "public/media/design/launch.webp",
+      "purpose": "launch"
+    }
+  ]
+}

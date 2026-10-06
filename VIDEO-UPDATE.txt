@@ -1,0 +1,54 @@
+HISTORICAL NOTE — Verendo 1.1.0
+For the current 1.2.0 release, read README.md and QA-REPORT.md.
+
+VERENDO - DIGITAL STUDIO UPDATE
+
+This is the complete project based on the last delivered Verendo 1.1.0 ZIP,
+with the text changes shown in your five screenshots included.
+
+REQUESTED CHANGES
+- Only the home hero's connected-cube image is replaced with the exact selected
+  02-digital-studio.mp4. Other uses of the original image are retained.
+- The video requests muted autoplay, inline playback and continuous looping.
+  It has a poster and preserves its 16:9 aspect ratio without cropping.
+- The existing outer hero/container dimensions and responsive breakpoints are
+  unchanged. Floating labels sit around the video inside that same area.
+- The section now reads "Smarter tech" / "unstoppable Growth", with the exact
+  eyebrow, four badges and footnote from your screenshot.
+- Process titles are Uncover, Plan, Build and Launch. Their existing paragraphs
+  and illustrations already matched your screenshots and were preserved.
+
+SMALL BUILD FIX
+The older ZIP's unused Vite config imported missing local preview metadata.
+That metadata is now optional, so the exported Next.js project builds without
+it. No dependency versions, contact details, routes or other pages were changed.
+
+CHECKED
+- Production build and TypeScript: passed.
+- ESLint: passed.
+- Existing 30 route/content and 30 referenced-media checks: passed.
+- Screenshot copy and single home-hero video markup: verified.
+- Selected MP4 byte-for-byte match, complete decoding and fast-start: passed.
+- MP4 partial-content streaming (HTTP 206) and poster request: passed.
+- Original outer hero layout CSS unchanged: verified.
+- ZIP integrity: verified during packaging.
+
+LIMIT OF VERIFICATION
+The browser's URL policy blocked the local preview in this session. Live
+desktop/mobile visual review and real-device autoplay were not completed.
+Autoplay can also be restricted by a visitor's browser or device settings.
+
+RUN
+Extract into a new folder. Open the inner verendo folder in VS Code, then run:
+
+npm ci
+npm run dev
+
+Open http://localhost:3000
+
+For production:
+npm run build
+npm run start
+
+The source version remains 1.1.0; no package or lockfile change was needed.
+Your original project and its Git history should be kept as a backup.

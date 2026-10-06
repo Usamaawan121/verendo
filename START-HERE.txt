@@ -1,0 +1,21 @@
+VERENDO 1.2.0
+
+1. Extract the ZIP. Open the verendo folder that contains package.json in VS Code.
+2. In PowerShell, run:
+   npm ci
+   npm run dev
+3. Open http://localhost:3000
+4. Before going live, follow EMAIL-SETUP.md. Email cannot be delivered without your provider credentials and Turnstile setup.
+5. Run:
+   npm run test
+   npm run lint
+   npm run build
+   npm run check:routes
+6. Browser checks prepared for your machine:
+   npx playwright install chromium firefox webkit
+   npm run test:e2e
+7. See QA-REPORT.md for checks actually completed and remaining live/browser verification.
+
+Vercel: Next.js framework, npm ci install, npm run build, Output Directory override OFF.
+No Plans/Pricing page was added. All four requested optional budgets are included.
+No node_modules, build output, private credentials or git history is included.

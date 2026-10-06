@@ -1,0 +1,21 @@
+[
+  "vite.config.ts",
+  "drizzle.config.ts",
+  "app/chatgpt-auth.ts",
+  "db/index.ts",
+  "db/schema.ts",
+  "drizzle/meta/_journal.json",
+  "build/sites-vite-plugin.ts",
+  "build/sites-vite-plugin.LICENSE",
+  "scripts/install-pnpm.sh",
+  "scripts/run-framework.mjs",
+  "scripts/install-ci.sh",
+  "scripts/sites-env.mjs",
+  "scripts/install-ci.mjs",
+  "scripts/build-verified.sh",
+  "scripts/pnpm-install.mjs",
+  "scripts/npm-install.mjs",
+  "scripts/sites-env.sh",
+  "scripts/execution-profile.mjs",
+  "cloudflare-env.d.ts"
+]
