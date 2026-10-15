@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/accordion";
 import {
   faqs,
-  demoProducts,
   media,
   metrics,
   posts,
@@ -192,16 +191,22 @@ function Work() {
   );
 }
 function Integration() {
-  const rows = [
-    demoProducts,
-    [...demoProducts.slice(3), ...demoProducts.slice(0, 3)],
+  const tools = [
+    { name: "OpenAI", mark: "openai" },
+    { name: "Claude", mark: "claude" },
+    { name: "n8n", mark: "n8n" },
+    { name: "Make", mark: "make" },
+    { name: "WordPress", mark: "wordpress" },
+    { name: "Meta Ads", mark: "meta" },
+    { name: "Google Ads", mark: "google-ads" },
   ];
+  const rows = [tools, [...tools.slice(3), ...tools.slice(0, 3)]];
   return (
     <section className="integration-section section-space">
       <SectionHeading
-        eyebrow="Demo Concepts"
-        title="Product Ideas, by Verendo"
-        description="Six original design concepts exploring CRM, bookings, commerce, analytics and automation. Created for our demo portfolio."
+        eyebrow="The tools behind the work"
+        title="Your goals first. Tools second."
+        description="We choose platforms for the work your business needs—from automation and AI to websites and ads."
         center
       />
       <div className="integration-mask">
@@ -216,38 +221,15 @@ function Integration() {
                 aria-hidden={row === 1 || copy === 1}
                 key={copy}
               >
-                {products.map((product) => (
+                {products.map((tool) => (
                   <div
                     className="integration-logo"
-                    key={product.name}
+                    key={tool.name}
                     role="img"
-                    aria-label={`${product.name}: ${product.category} demo concept`}
-                    title={`${product.name} — ${product.category} (demo concept)`}
+                    aria-label={`${tool.name} platform`}
+                    title={tool.name}
                   >
-                    <div
-                      style={{
-                        display: "grid",
-                        justifyItems: "center",
-                        gap: 6,
-                      }}
-                    >
-                      <img
-                        src={media(product.image)}
-                        alt=""
-                        width={48}
-                        height={48}
-                        loading="lazy"
-                      />
-                      <span
-                        style={{
-                          fontSize: 12,
-                          lineHeight: "16px",
-                          color: "#a1a1aa",
-                        }}
-                      >
-                        {product.name}
-                      </span>
-                    </div>
+                    <ToolLogo name={tool.name} mark={tool.mark} />
                   </div>
                 ))}
               </div>
@@ -256,6 +238,113 @@ function Integration() {
         ))}
       </div>
     </section>
+  );
+}
+
+function ToolLogo({ name, mark }: { name: string; mark: string }) {
+  return (
+    <div className={`tool-brand tool-brand-${mark}`}>
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        {mark === "openai" && (
+          <g
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M24 8.5a8 8 0 0 1 13.7 5.7v5.3" />
+            <path d="M37.7 19.5a8 8 0 0 1 0 16l-4.6 2.7" />
+            <path d="M33.1 38.2a8 8 0 0 1-13.8-5.7v-5.3" />
+            <path d="M19.3 27.2a8 8 0 0 1 0-16l4.7-2.7" />
+            <path d="m20 11.2 13.1 7.6v10.4L20 36.8" />
+            <path d="m37.5 20-13.5 7.8-9-5.2V12.2" />
+          </g>
+        )}
+        {mark === "claude" && (
+          <g fill="currentColor">
+            <path
+              d="M24 3.5 27.2 18 40.5 10l-8 13.2 14.5 3.3-14.5 3.2 8 13.3-13.3-8L24 49.5l-3.2-14.5-13.3 8 8-13.3L1 26.5l14.5-3.3-8-13.2 13.3 8L24 3.5Z"
+              transform="translate(0 -2) scale(.96)"
+            />
+          </g>
+        )}
+        {mark === "n8n" && (
+          <g
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="3.2"
+            strokeLinecap="round"
+          >
+            <path d="M14 24h20M17 18l14 12" />
+            <circle cx="12" cy="24" r="5" fill="currentColor" stroke="none" />
+            <circle cx="36" cy="24" r="5" fill="currentColor" stroke="none" />
+            <circle cx="32" cy="36" r="4" fill="currentColor" stroke="none" />
+          </g>
+        )}
+        {mark === "make" && (
+          <g
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M9 34 20 14l9 17 10-17" />
+            <circle cx="9" cy="34" r="3" fill="currentColor" stroke="none" />
+            <circle cx="20" cy="14" r="3" fill="currentColor" stroke="none" />
+            <circle cx="29" cy="31" r="3" fill="currentColor" stroke="none" />
+            <circle cx="39" cy="14" r="3" fill="currentColor" stroke="none" />
+          </g>
+        )}
+        {mark === "wordpress" && (
+          <g>
+            <circle
+              cx="24"
+              cy="24"
+              r="19"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+            />
+            <text
+              x="24"
+              y="32"
+              textAnchor="middle"
+              fontFamily="Georgia, serif"
+              fontSize="25"
+              fontWeight="700"
+              fill="currentColor"
+            >
+              W
+            </text>
+          </g>
+        )}
+        {mark === "meta" && (
+          <path
+            d="M7 32c4-12 8-18 12-18 6 0 12 20 17 20 3 0 5-5 5-10 0-6-3-10-7-10-6 0-12 20-18 20-4 0-7-5-7-11 0-5 2-9 5-9"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+        )}
+        {mark === "google-ads" && (
+          <g strokeLinecap="round" strokeLinejoin="round">
+            <path
+              d="M17 8a8 8 0 0 1 14 0l14 25a8 8 0 0 1-14 8L17 16a8 8 0 0 1 0-8Z"
+              fill="#34A853"
+            />
+            <path
+              d="M17 8a8 8 0 0 1 14 0L17 33a8 8 0 0 1-14-8L17 8Z"
+              fill="#4285F4"
+            />
+            <circle cx="10" cy="34" r="8" fill="#FBBC04" />
+          </g>
+        )}
+      </svg>
+      <span>{name}</span>
+    </div>
   );
 }
 export function Metrics() {
