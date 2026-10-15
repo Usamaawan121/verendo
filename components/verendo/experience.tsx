@@ -15,11 +15,8 @@ import {
 import {
   ArrowDown,
   ArrowUpRight,
-  Check,
-  Clock3,
   Globe2,
   MessageSquare,
-  Minus,
   Sparkles,
   Workflow,
 } from "lucide-react";
@@ -41,14 +38,12 @@ export function GrowthHero() {
         <Reveal>
           <Eyebrow>Digital ambition. Real-world focus.</Eyebrow>
         </Reveal>
-        <motion.h1
-          initial={reduced ? false : { opacity: 0, y: 28 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, ease }}
-        >
-          More leads. <br />
-          <span>Less busywork.</span>
-        </motion.h1>
+        <Reveal>
+          <h1>
+            Ai is a tool. <br />
+            <span>More customers are the goal.</span>
+          </h1>
+        </Reveal>
         <span className="hero-coordinate mono" aria-hidden="true">
           / Verendo — built around your business
         </span>
@@ -99,46 +94,39 @@ export function GrowthHero() {
           </span>
           <span className="hero-orbit orbit-two mono">
             <Globe2 size={13} />
-            Website Development
+            Web Development
           </span>
           <span className="hero-orbit orbit-three mono">
             <ArrowUpRight size={13} />
             Digital Marketing
           </span>
-          <span className="art-caption mono">
-            Three services. One connected direction.
-          </span>
         </div>
         <div className="growth-intro">
           <Reveal delay={0.1}>
-            <p className="hero-lead">
-              Your business has enough moving parts.
-              <br />
-              Let your digital tools work together.
-            </p>
+            <p className="hero-lead">Tell us what you want to improve.</p>
             <p>
-              We bring AI, website development and digital marketing into one
-              clear plan—helping people find you, choose you and work with you.
+              We’ll help you choose where to start: your website, marketing or
+              AI.
             </p>
           </Reveal>
           <Reveal delay={0.2} className="hero-actions">
             <ButtonLink href={config.bookingUrl} light>
-              Book a discovery call
+              Discuss your business
             </ButtonLink>
             <ButtonLink href="/services">Explore our services</ButtonLink>
           </Reveal>
           <Reveal delay={0.25} className="hero-market-note">
             <span className="availability-dot" aria-hidden="true" />
-            <p>
-              For local, small &amp; medium businesses
-              <br />
-              <span className="mono">United Kingdom · United States · UAE</span>
-            </p>
+            <p>For businesses ready for their next stage.</p>
           </Reveal>
         </div>
       </div>
-      <a className="hero-scroll mono" href="#business-friction">
-        Built for your next step <ArrowDown size={14} />
+      <a
+        className="hero-scroll mono"
+        href="#business-friction"
+        aria-label="Scroll to explore"
+      >
+        <ArrowDown size={14} aria-hidden="true" />
       </a>
     </section>
   );
@@ -147,37 +135,33 @@ export function GrowthHero() {
 export function Markets() {
   return (
     <div className="market-strip container">
-      <span className="mono">
-        Local ambition.
-        <br />A wider perspective.
-      </span>
-      <p>For the next stage of your business.</p>
-      <div className="market-codes mono">
-        <span>UK</span>
-        <span>USA</span>
-        <span>UAE</span>
-      </div>
+      <p>Let’s find where AI can save your business time and money.</p>
     </div>
   );
 }
 
 const frictionPoints = [
   {
-    text: "Move faster than your competition",
-    Icon: MessageSquare,
+    text: "Your team pays for AI but still works manually.",
+    emoji: "⚠️",
     left: 24,
     top: 22,
   },
-  { text: "Let AI do the heavy work", Icon: Globe2, left: 72, top: 30 },
   {
-    text: "Turn clicks into customers",
-    Icon: Workflow,
+    text: "Customers can’t find you online.",
+    emoji: "⚠️",
+    left: 72,
+    top: 30,
+  },
+  {
+    text: "Leads go cold before anyone replies.",
+    emoji: "⚠️",
     left: 22,
     top: 70,
   },
   {
-    text: "Cut operational costs and boost margins",
-    Icon: Clock3,
+    text: "Every new project means another hire.",
+    emoji: "⚠️",
     left: 73,
     top: 80,
   },
@@ -209,12 +193,16 @@ function FrictionBadge({
     >
       {fixed ? (
         <Reveal className="friction-badge">
-          <point.Icon size={16} />
+          <span className="friction-emoji" aria-hidden="true">
+            {point.emoji}
+          </span>
           <span>{point.text}</span>
         </Reveal>
       ) : (
         <motion.div className="friction-badge" style={{ opacity, y }}>
-          <point.Icon size={16} />
+          <span className="friction-emoji" aria-hidden="true">
+            {point.emoji}
+          </span>
           <span>{point.text}</span>
         </motion.div>
       )}
@@ -240,11 +228,8 @@ export function BusinessFriction() {
       <div className="friction-sticky">
         <div className="friction-stage container">
           <div className="friction-heading">
-            <Eyebrow>Built for what&apos;s next</Eyebrow>
             <h2 id="friction-heading">
-              Smarter tech
-              <br />
-              <span>unstoppable Growth</span>
+              Is your business leaking time, leads & money?
             </h2>
           </div>
           <div className="friction-labels">
@@ -257,9 +242,6 @@ export function BusinessFriction() {
               />
             ))}
           </div>
-          <p className="friction-footnote mono">
-            Engineered for performance. Built for growth.
-          </p>
         </div>
       </div>
     </section>
@@ -406,19 +388,19 @@ export function ProcessSequence() {
 
 const connected = [
   "One plan across AI, your website and marketing",
-  "Priorities shaped around your business",
   "A clear scope before work begins",
-  "Reviewable progress and useful feedback",
-  "Practical handover for your team",
-  "Support options agreed before launch",
+  "Experts with 7+ years of experience",
+  "We stay involved after launch",
+  "AI agents that save 40+ hours a month",
+  "You own the system, not just the result",
 ];
 const disconnected = [
   "Separate tasks without a shared direction",
-  "New tools before the problem is clear",
   "Unclear responsibilities and next steps",
-  "Updates that are hard to evaluate",
-  "Knowledge that stays outside your team",
-  "No plan for what happens afterwards",
+  "Outsourced to mediocre talent",
+  "Project ends after setup",
+  "Tools nobody on your team understands",
+  "Dependency on the agency forever",
 ];
 export function WhyVerendo() {
   const ref = useRef<HTMLElement>(null);
@@ -470,11 +452,9 @@ export function WhyVerendo() {
             fixed ? { opacity: 1, y: 0 } : { opacity: titleOpacity, y: titleY }
           }
         >
-          <Eyebrow>Why Verendo</Eyebrow>
+          <Eyebrow>WHY VERENDO</Eyebrow>
           <h2 id="difference-heading">
-            Connected thinking.
-            <br />
-            <span>A clearer way forward.</span>
+            The Difference Is Real.
           </h2>
         </motion.div>
         <motion.div
@@ -492,15 +472,14 @@ export function WhyVerendo() {
             }
           >
             <div className="difference-card-title">
-              <span className="difference-brand">
-                Verendo<span>↗</span>
-              </span>
-              <span className="mono">A connected approach</span>
+              <h3 className="difference-brand">Verendo</h3>
             </div>
             <ul>
               {connected.map((text) => (
                 <li key={text}>
-                  <Check size={15} />
+                  <span className="difference-mark" aria-hidden="true">
+                    ✅
+                  </span>
                   <span>{text}</span>
                 </li>
               ))}
@@ -515,21 +494,19 @@ export function WhyVerendo() {
             }
           >
             <div className="difference-card-title">
-              <h3>Disconnected work</h3>
-              <span className="mono">What we help you move beyond</span>
+              <h3>Other Agencies</h3>
             </div>
             <ul>
               {disconnected.map((text) => (
                 <li key={text}>
-                  <Minus size={15} />
+                  <span className="difference-mark" aria-hidden="true">
+                    ❌
+                  </span>
                   <span>{text}</span>
                 </li>
               ))}
             </ul>
           </motion.article>
-          <p className="difference-caption">
-            The value is in how the pieces work together.
-          </p>
         </motion.div>
       </div>
     </section>
@@ -546,8 +523,8 @@ export function ServicePillars({ overview = false }: { overview?: boolean }) {
         <div className="section-row">
           <SectionHeading
             eyebrow="What we do"
-            title="Three services. Built around your next step."
-            description="Start with the need that matters most. We will help you connect the rest."
+            title="AI, marketing and web development for your business."
+            description="Start with what you need most. We’ll help you choose where to begin and connect the right services as your business grows."
           />
           <span className="mono pillar-count">/ 01 — 03</span>
         </div>
